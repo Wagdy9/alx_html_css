@@ -1,4 +1,4 @@
-# Pure HTML Project
+# Main HTML Project
 
 This is a simple project that demonstrates the power and versatility of HTML. It showcases the capabilities of HTML as a standalone technology, without the use of CSS or JavaScript. This README file provides an overview of the project, its structure, and instructions for getting started.
 
@@ -12,7 +12,7 @@ This is a simple project that demonstrates the power and versatility of HTML. It
 
 ## Project Description
 
-The Pure HTML Project is a minimalist web application that focuses solely on the HTML markup language. It serves as a playground for exploring the diverse features and tags offered by HTML without the distraction of CSS styling or JavaScript functionality. By examining this project, you can gain a deeper understanding of the underlying structure and semantics of HTML.
+The Main HTML Project is a minimalist web application that focuses solely on the HTML markup language. It serves as a playground for exploring the diverse features and tags offered by HTML without the distraction of CSS styling or JavaScript functionality. By examining this project, you can gain a deeper understanding of the underlying structure and semantics of HTML.
 
 ## Project Structure
 
@@ -32,13 +32,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/pure-html-project.git
+   git clone https://github.com/your-username/main-html-project.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd pure-html-project
+   cd main-html-project
    ```
 
 3. Open the `index.html` file in your preferred web browser.
@@ -57,5 +57,5 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ---
 
-Thank you for your interest in the Pure HTML Project. We hope you find it informative and inspiring. Happy coding!
+Thank you for your interest in the main HTML Project. We hope you find it informative and inspiring. Happy coding!
  
