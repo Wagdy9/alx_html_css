@@ -1,0 +1,46 @@
+.twitter-tweet {
+    position: static;
+    background-color: #eee;
+}
+
+.topic {
+    font-variant: small-caps;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #e13607;
+    color: #ffffff;
+    padding-top: 25px;
+    min-height: 50px;
+    border-bottom: #e13607 3px solid;
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4
+}
+
+aside {
+    background-color: #eee;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 0 10% 0 10%;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
