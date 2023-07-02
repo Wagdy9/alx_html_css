@@ -1,0 +1,124 @@
+/*Apply flexbox to body and main*/
+body,
+main {
+    display: flex;
+}
+
+/* Set body as a column container*/
+body {
+    flex-direction: column;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4
+}
+
+/* Set main as a row container*/
+main {
+    flex-direction: row;
+}
+
+/* Set main to automatically adjust height and width*/
+main {
+    flex: auto;
+}
+
+/* Set article to occupy 2/3 of the width*/
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+/* Set aside to occupy 1/3 of the width*/
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #eee;
+}
+
+/* The navigation bar to remove bullets*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* To remove decoration*/
+nav li a {
+    text-decoration: none;
+}
+
+/*To make the navigation bar floating*/
+li {
+    float: left;
+    display: inline;
+    padding: 0 10%;
+}
+
+/*Styling the header*/
+header {
+    background: #e13607;
+    color: #ffffff;
+    padding-top: 25px;
+    min-height: 50px;
+    border-bottom: #e13607 3px solid;
+}
+
+.twitter-tweet {
+    position: static;
+    background-color: #eee;
+}
+
+.topic {
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
+/*Aligning text of headers to center*/
+h1,
+h2,
+h3 {
+    text-align: center;
+}
