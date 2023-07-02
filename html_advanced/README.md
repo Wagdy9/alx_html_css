@@ -55,8 +55,8 @@ When contributing to this project, please ensure that you follow the established
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project for personal or commercial purposes. See the [LICENSE](LICENSE) file for more details.
 
-[![HTML5 Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)
-[![HTML Logo](https://th.bing.com/th/id/OIP.3mRwLKlzFB2Do4SkdIsvuwAAAA?pid=ImgDet&rs=1)
+![HTML5 Logo(https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)
+![HTML Logo(https://th.bing.com/th/id/OIP.3mRwLKlzFB2Do4SkdIsvuwAAAA?pid=ImgDet&rs=1)
 
 
 
