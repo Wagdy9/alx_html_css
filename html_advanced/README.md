@@ -55,9 +55,8 @@ When contributing to this project, please ensure that you follow the established
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project for personal or commercial purposes. See the [LICENSE](LICENSE) file for more details.
 
-```markdown
-![Sample Image]([https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg](https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg))
-```
+[![HTML5 Logo](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png)](https://www.w3.org/html/)
+
 
 ---
 
