@@ -14,12 +14,9 @@ body {
 }
 
 /* Set main as a row container*/
-main {
-    flex-direction: row;
-}
-
 /* Set main to automatically adjust height and width*/
 main {
+    flex-direction: row;
     flex: auto;
 }
 
@@ -91,6 +88,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    border: 1px solid black;
 }
 
 th,
@@ -121,4 +119,10 @@ h1,
 h2,
 h3 {
     text-align: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    margin-left: 2px;
 }
