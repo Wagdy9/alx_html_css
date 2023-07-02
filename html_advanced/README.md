@@ -60,6 +60,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 
 
+
 ---
 
 Thank you for your interest in the main HTML Project. We hope you find it informative and inspiring. Happy coding!
