@@ -55,6 +55,10 @@ When contributing to this project, please ensure that you follow the established
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project for personal or commercial purposes. See the [LICENSE](LICENSE) file for more details.
 
+```markdown
+![logo](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg)
+```
+
 ---
 
 Thank you for your interest in the main HTML Project. We hope you find it informative and inspiring. Happy coding!
