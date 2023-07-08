@@ -331,7 +331,7 @@ a:active {
 }
 
 /* Grid ============================= */
-.row {
+ul.row {
     margin: -1rem;
     padding: 0;
     list-style: none;
@@ -506,17 +506,16 @@ a:active {
 }
 
 /* Section Latest news ============================= */
-/* Card WORK ============================= */
-.section-latest-news .row {
-    flex-direction: row-reverse;
-}
-
 /*** 4. CARD ***/
 /* Card (all styles) ============================= */
 .card-category {
     color: var(--color-primary);
 }
 
+/* Card WORK ============================= */
+.section-latest-news .row {
+    flex-direction: row-reverse;
+}
 
 .card-work .card-outer {
     position: relative;
@@ -580,12 +579,13 @@ a:active {
     opacity: 1;
 }
 
+
+/* Card SERVICES ============================= */
 /* Section SERVICES ============================= */
-.section-services .row {
+.section-services.row {
     flex-wrap: wrap;
 }
 
-/* Card SERVICES ============================= */
 .card-services .card-title {
     margin: 0;
 }

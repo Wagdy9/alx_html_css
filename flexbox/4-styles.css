@@ -579,9 +579,10 @@ ul.row {
     opacity: 1;
 }
 
-/* Section SERVICES ============================= */
+
 /* Card SERVICES ============================= */
-.section-services .row {
+/* Section SERVICES ============================= */
+.section-services.row {
     flex-wrap: wrap;
 }
 
