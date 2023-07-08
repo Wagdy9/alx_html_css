@@ -332,7 +332,7 @@ a:active {
 
 /* Grid ============================= */
 .row {
-    margin: -1;
+    margin: -1rem;
     padding: 0;
     list-style: none;
     display: flex;
@@ -340,7 +340,6 @@ a:active {
 
 /*.row::after { content: ''; display: table; clear: both; }*/
 [class*='col-'] {
-    padding: 0rem;
     margin: 1rem;
 }
 
