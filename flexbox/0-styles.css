@@ -583,7 +583,7 @@ a:active {
 
 /* Section SERVICES ============================= */
 /* Card SERVICES ============================= */
-.section-services .row {
+.section-services.row {
     flex-wrap: wrap;
 }
 
