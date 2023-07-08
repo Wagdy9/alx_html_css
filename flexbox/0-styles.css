@@ -331,10 +331,11 @@ a:active {
 }
 
 /* Grid ============================= */
-ul.row {
+.row {
     margin: -1;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 /*.row::after { content: ''; display: table; clear: both; }*/
