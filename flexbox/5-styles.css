@@ -398,6 +398,8 @@ ul.row {
 
 /* Header ============================= */
 .header .header-container {
+    display: flex;
+    justify-content: space-between;
     padding: var(--header-padding);
     position: relative;
     z-index: 3;
@@ -405,9 +407,9 @@ ul.row {
     flex-wrap: wrap;
 }
 
-.header-logo {
+/*.header-logo {
     position: var(--header-logo-position);
-}
+}*/
 
 .header-logo a {
     display: var(--header-logo-link-display);
