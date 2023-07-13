@@ -374,6 +374,49 @@ body {
     color: #C271FF;
   }
 
+  .quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    background-color: #C271FF;
+    font-family: var(--font-family-base);
+    color: #ffffff;
+    height: 392px;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 200px;
+    }
+    
+    .author-photo {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    }
+    
+    .quote-container {
+    flex-grow: 1;
+    }
+    
+    .quote {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .author-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    .author-profession {
+    font-size: 22px;
+    font-style: italic;
+    font-family: var(--font-family-base);
+    font-size: 22px;
+  }
+
 /* NAVBAR */
 
 .header {
