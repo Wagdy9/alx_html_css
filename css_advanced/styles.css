@@ -465,7 +465,6 @@ body {
 }
 
 
-
 .drop li {
   
   display: flex;
@@ -595,6 +594,23 @@ body {
   border: none;
   border-radius: 50px;
   cursor: pointer;
+  }
+
+  .ti {
+    text-align: center;
+    font-weight: var(--font-family-title);
+  }
+  .card2 {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .row {
+    margin-bottom: 20px;
+    text-align: center;
   }
 /* NAVBAR */
 
