@@ -318,7 +318,7 @@ body {
   font-family: var(--font-family-base);
   font-size: 120px;
   margin-top: 100px;
-  
+
 }
 
 .econtainer {
@@ -330,93 +330,215 @@ body {
 .element {
   margin: 10px;
   padding: 20px;
- 
+
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  
-  .card {
+}
+
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  margin-right: 20px;
+  margin-right: 100px;
   margin-bottom: 20px;
-  justify-content: space-evenly;
-  }
-  
-  .card-image {
+}
+
+.card-image {
   width: 150px;
   height: 150px;
 
-  }
-  
-  .card-details {
+}
+
+.card-details {
   text-align: center;
-  }
-  
-  .card-name {
+}
+
+.card-name {
   margin: 5px 0;
   font-size: 18px;
   text-transform: uppercase;
-  }
-  
-  .card-prize, .card-year {
+}
+
+.card-prize,
+.card-year {
   margin: 5px 0;
   font-size: 14px;
-  }
+}
 
-  .highlight {
-    color: #C271FF;
-  }
+.highlight {
+  color: #C271FF;
+}
 
-  .quote-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 22px;
-    background-color: #C271FF;
-    font-family: var(--font-family-base);
-    color: #ffffff;
-    height: 392px;
-    font-weight: normal;
-    margin: 0 auto;
-    padding: 200px;
-    }
-    
-    .author-photo {
-    width: 160px;
-    height: 160px;
-    margin-right: 20px;
-    }
-    
-    .quote-container {
-    flex-grow: 1;
-    }
-    
-    .quote {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    }
-    
-    .author-name {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    }
-    
-    .author-profession {
-    font-size: 22px;
-    font-style: italic;
-    font-family: var(--font-family-base);
-    font-size: 22px;
-  }
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+  background-color: #C271FF;
+  font-family: var(--font-family-base);
+  color: #ffffff;
+  height: 392px;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 200px;
+}
 
+.author-photo {
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+}
+
+.quote-container {
+  flex-grow: 1;
+}
+
+.quote {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.author-profession {
+  font-size: 22px;
+  font-style: italic;
+  font-family: var(--font-family-base);
+  font-size: 22px;
+}
+
+.back {
+  background-image: url(Images/9.png);
+}
+
+.back1 {
+  background-image: url(Images/7.png);
+}
+
+.back2 {
+  background-image: url(Images/8.png);
+}
+
+.back3 {
+  background-image: url(Images/6.png);
+}
+
+#tut p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+#tut ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  margin-bottom: -5px;
+  text-align: center;
+  align-items: center;
+  font-family: var(--font-family-base);
+}
+
+#tut li {
+  padding-top:150px;
+  padding-left: 50px;
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: left;
+}
+
+.color {
+  color: #C271FF;
+}
+
+
+
+.drop li {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.drop1 li {
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: center;
+  padding-right: 120px;
+  padding-right: 20px;
+}
+
+.beside {
+  display: inline-block;
+  align-items: center;
+
+}
+
+.beside p {
+  flex: 1;
+}
+
+#tut1 {
+  background-color: rgb(8, 8, 8);
+
+}
+
+#tut1 p {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#tut1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  margin-bottom: -5px;
+  text-align: center;
+  align-items: center;
+
+}
+
+#tut1 li {
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+}
+
+#tut1 button {
+  background-color: var(--font-family-base);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#tut p {
+  padding-top: 100px;
+}
 /* NAVBAR */
 
 .header {
@@ -582,7 +704,7 @@ body {
   inline-size: 160px;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight:var(--font-weight-thin) ;
+  font-weight: var(--font-weight-thin);
 }
 
 .btn-color {
@@ -1009,7 +1131,7 @@ a:visited {
   .hero-3 {
     inline-size: 800px;
     margin: 30px auto;
-    font-size:32px ;
+    font-size: 32px;
     font-weight: 300;
   }
 }
